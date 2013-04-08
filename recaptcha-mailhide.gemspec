@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Pedro Fayolle"]
-  s.date = "2012-04-18"
+  s.authors = ["Pedro Fayolle", "Jay Anslow"]
+  s.date = "2013-04-08"
   s.description = "Ruby implementation of ReCAPTCHA Mailhide's API"
   s.email = "pfayolle@gmail.com"
   s.extra_rdoc_files = [
@@ -29,7 +29,9 @@ Gem::Specification.new do |s|
     "lib/recaptcha_mailhide.rb",
     "lib/recaptcha_mailhide/configuration.rb",
     "lib/recaptcha_mailhide/encrypt.rb",
+    "lib/recaptcha_mailhide/railtie.rb",
     "lib/recaptcha_mailhide/url.rb",
+    "lib/recaptcha_mailhide/view_helpers.rb",
     "recaptcha-mailhide.gemspec",
     "spec/recaptcha_mailhide/encrypt_spec.rb",
     "spec/recaptcha_mailhide/url_spec.rb",
@@ -38,7 +40,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/pilaf/recaptcha-mailhide"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = "1.8.10"
+  s.rubygems_version = "1.8.25"
   s.summary = "ReCAPTCHA Mailhide for Ruby"
 
   if s.respond_to? :specification_version then

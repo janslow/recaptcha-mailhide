@@ -20,7 +20,7 @@ Jeweler::Tasks.new do |gem|
   gem.summary = %Q{ReCAPTCHA Mailhide for Ruby}
   gem.description = %Q{Ruby implementation of ReCAPTCHA Mailhide's API}
   gem.email = "pfayolle@gmail.com"
-  gem.authors = ["Pedro Fayolle"]
+  gem.authors = ["Pedro Fayolle", "Jay Anslow"]
   gem.files.include Dir["lib/**/*.rb"]
   # dependencies defined in Gemfile
 end
